@@ -23,10 +23,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import confusion_matrix, accuracy_score, f1_score, confusion_matrix, ConfusionMatrixDisplay
 
-consumerKey = "OK0omPEmhQdKSdUtLH2CB3ICw"
-consumerSecret = "dwVf0g9jLMOWMVy7mz4KDeW8WY4pcGz22MlSEPQYlAmKZTwx4M"
-accessToken = "1546899945843675137-y0Lg4QhsI5pXrvrgBq6kQZiHSq67fz"
-accessTokenSecret = "6rYg5arka9ewqEAzW0pO0F9ggqbbWdA7vXIHhR3atjFhP"
+consumerKey = "XXXXXXXXXXXXXXXXX"
+consumerSecret = "XXXXXXXXXXXXXXXXX"
+accessToken = "XXXXXXXXXXXXXXXXX"
+accessTokenSecret = "XXXXXXXXXXXXXXXXX"
 
 auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
 auth.set_access_token(accessToken, accessTokenSecret)
